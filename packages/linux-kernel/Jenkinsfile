@@ -55,6 +55,9 @@ def pkgList = [
 
     // Intel-QAT
     ['name': 'qat', 'buildCmd': 'cd ..; ./build-intel-qat.sh'],
+
+    // Openvpn-dco
+    ['name': 'ovpn-dco', 'buildCmd': 'cd ..; ./build-openvpn-dco.sh'],
 ]
 
 // Start package build using library function from https://github.com/vyos/vyos-build
